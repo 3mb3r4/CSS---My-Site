@@ -1,3 +1,19 @@
+/*
+#FEFBF6 - cream
+#A6D1E6 - light blue
+#7F5283 - purple
+#3D3C42 - black
+*/
+
 body {
-    background-color: blue;
+    margin: 0;
+}
+
+div {
+    background-color: #7F5283;
+    
+}
+
+h1 {
+    margin-top: 0;
 }
