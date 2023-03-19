@@ -8,6 +8,9 @@
 body {
     margin: 0;
     text-align: center;
+    /*font-family: 'Domine', serif;*/
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
 }
 
 div {
@@ -16,41 +19,88 @@ div {
 }
 
 h1 {
-    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 8rem; /*16px = 100% (dynamic) = 1em (dynamic)*/
+    line-height: 2;
+    margin: 0 auto auto 0;
+    color: #3D3C42
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #3D3C42
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #7F5283;
+}
+
+a {
+    color: #A6D1E6;
 }
 
 /*********************CLASS STATEMENTS*********************/
 .top-container {
+    background-color: #A6D1E6;
     position: relative;
-    padding-top: 100px;
+    padding-top: 200px;
 
 }
 
-
 .middle-container {
-    background-color: #A6D1E6;
-    height: 200px;
-    width: 200px;
+    
 }
 
 .bottom-container {
     background-color: #7F5283;
-    height: 200px;
-    width: 200px;
+    margin-bottom: 0;
+}
+
+.skill-row {
+    display: inline-block;
+    width: 50%;
+    margin: 100px auto auto 100px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .underline {
     text-decoration: underline;
 }
 
+.cloud {
+    /*height: 80px;*/
+    width: 300px;
+    height: 200px;
+}
+
 .top-cloud {
     position: absolute;
-    left: 65%;
-    top: 50px;
+    left: 75%;
+    top: 100px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 27%;
-    top: 200px;
+    left: 10%;
+    top: 400px;
 }
+
+.info {
+    /* width: 300px;*/
+    width: 25%;
+    float: left;
+    margin-right: 40px ;
+}
+
+.cat {
+    width: 300px;
+}
+
+.big-element {
+    width: 40%;
+}
+
